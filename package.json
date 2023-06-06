@@ -2,6 +2,13 @@
   "name": "bookstore-management",
   "version": "1.0.0",
   "main": "main.js",
+  "extends": null,
+  "build": {
+    "appId": "bookstore-management",
+    "win": {
+      "icon": "./assets/favicon.ico"
+    }
+  },
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +17,7 @@
   "author": "Group 4",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^25.0.1"
+    "electron": "^25.0.1",
+    "electron-builder": "^23.6.0"
   }
 }

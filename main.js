@@ -1,3 +1,4 @@
+const path = require("path");
 const { app, BrowserWindow} = require("electron");
 
 const createWindow = () => {
@@ -6,7 +7,7 @@ const createWindow = () => {
         height: 800
     });
 
-    win.loadFile("./dist/index.html");
+    win.loadFile(path.join(__dirname, "/index.html"));
     win.autoHideMenuBar(true);
 };
 
