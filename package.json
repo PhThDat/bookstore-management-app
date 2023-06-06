@@ -6,7 +6,10 @@
   "build": {
     "appId": "bookstore-management",
     "win": {
-      "icon": "./assets/favicon.ico"
+      "icon": "./assets/icon.ico"
+    },
+    "linux": {
+      "icon": "./assets/icon.png"
     }
   },
   "scripts": {
